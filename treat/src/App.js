@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
 
 function App() {
   return (
-<>
-<Navbar title = "TextEditor" about = "About US"/>
-</>
+    <>
+      <Navbar title="TextEditor" about="About US" />
+      <TextForm/>
+    </>
   );
 }
 
